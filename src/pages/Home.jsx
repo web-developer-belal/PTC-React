@@ -66,17 +66,45 @@ const Home = () => {
         <DashboardStateCard
           icon={<FaCoins />}
           title="Total Earned"
-          value="$132.00"
+          value="132.00"
+          valuePrefix="$"
+          count={true}
         />
         <DashboardStateCard
           icon={<FaClock />}
           title="Time Spent"
           value="5h 40m"
+          valuePrefix=""
+          count={false}
         />
-        <DashboardStateCard icon={<FaChartLine />} title="CTR" value="3.2%" />
-        <DashboardStateCard icon={<FaAd />} title="Ads Clicked" value="145" />
-        <DashboardStateCard icon={<FaUsers />} title="Referrals" value="12" />
-        <DashboardStateCard icon={<FaMedal />} title="Rank" value="#24" />
+        <DashboardStateCard
+          icon={<FaChartLine />}
+          title="CTR"
+          value="3.2%"
+          valuePrefix="$"
+          count={false}
+        />
+        <DashboardStateCard
+          icon={<FaAd />}
+          title="Ads Clicked"
+          value="145"
+          valuePrefix=""
+          count={true}
+        />
+        <DashboardStateCard
+          icon={<FaUsers />}
+          title="Referrals"
+          value="12"
+          valuePrefix=""
+          count={true}
+        />
+        <DashboardStateCard
+          icon={<FaMedal />}
+          title="Rank"
+          value="#24"
+          valuePrefix="$"
+          count={false}
+        />
       </div>
 
       {/* 5. Leaderboard Table */}
