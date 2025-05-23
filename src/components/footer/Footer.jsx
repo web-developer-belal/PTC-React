@@ -19,9 +19,9 @@ const Footer = () => {
           <Link to="/profile" className="btn btn-ghost btn-circle text-xl">
             <FaUser />
           </Link>
-          <button className="btn btn-ghost btn-circle text-xl">
+          <Link to="/affiliate" className="btn btn-ghost btn-circle text-xl">
             <FaInfoCircle />
-          </button>
+          </Link>
         </div>
       </div>
     </div>

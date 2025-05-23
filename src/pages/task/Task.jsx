@@ -15,27 +15,27 @@ const Task = () => {
       id: 1,
       title: "Watch Ad Video - App A",
       amount: "$0.50",
-      thumbnail: "https://placeholder.co/120x70",
+      thumbnail: "https://placehold.co/120x70",
       link: "#",
     },
     {
       id: 2,
       title: "Review Product - Site B",
       amount: "$1.00",
-      thumbnail: "https://placeholder.co/120x70",
+      thumbnail: "https://placehold.co/120x70",
       link: "#",
     },
     {
       id: 3,
       title: "Follow Channel - YouTube",
       amount: "$0.30",
-      thumbnail: "https://placeholder.co/120x70",
+      thumbnail: "https://placehold.co/120x70",
       link: "#",
     },
   ];
 
   return (
-    <div className="max-w-5xl mx-auto p-4 space-y-6 mb-14">
+    <div className="max-w-5xl mx-auto p-4 space-y-6">
       {/* State Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         {stats.map((stat, i) => (

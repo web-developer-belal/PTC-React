@@ -109,7 +109,7 @@ const Withdrawals = () => {
 
       {/* Table */}
       {!showForm && (
-        <div className="overflow-x-auto bg-base-100 shadow rounded-lg mt-4 mb-16">
+        <div className="overflow-x-auto bg-base-100 shadow rounded-lg mt-4">
           <table className="table table-zebra w-full">
             <thead>
               <tr>

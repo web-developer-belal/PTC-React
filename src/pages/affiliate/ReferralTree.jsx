@@ -14,10 +14,10 @@ const ReferralTree = ({ referrals }) => {
       {/* Controls */}
       <div className="flex justify-between items-center mb-4 px-4">
         <div className="space-x-2">
-          <button onClick={zoomOut} className="btn btn-sm btn-outline">
+          <button onClick={zoomOut} className="btn btn-sm btn-error">
             -
           </button>
-          <button onClick={zoomIn} className="btn btn-sm btn-outline">
+          <button onClick={zoomIn} className="btn btn-sm btn-success">
             +
           </button>
         </div>
@@ -27,7 +27,7 @@ const ReferralTree = ({ referrals }) => {
       </div>
 
       {/* Zoomable Area */}
-      <div className="overflow-auto border rounded-md p-4">
+      <div className="overflow-auto shadow-md rounded-md p-4 bg-base-100">
         <div
           className="inline-block transform origin-top-left"
           style={{ transform: `scale(${scale})` }}

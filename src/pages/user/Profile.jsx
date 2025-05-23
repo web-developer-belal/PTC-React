@@ -8,7 +8,7 @@ const Profile = () => {
 
   // Placeholder user data
   const [formData, setFormData] = useState({
-    avatar: 'https://via.placeholder.com/100',
+    avatar: 'https://placehold.co/100',
     firstName: 'John',
     lastName: 'Doe',
     email: 'john@example.com',
