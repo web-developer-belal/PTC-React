@@ -1,13 +1,6 @@
 import Marquee from "react-fast-marquee";
-import {
-  FaCoins,
-  FaClock,
-  FaChartLine,
-  FaAd,
-  FaUsers,
-  FaMedal,
-} from "react-icons/fa";
-import DashboardStateCard from "../components/DashboardStateCard";
+import StateSection from "../components/dashboard/StateSection";
+
 
 const Home = () => {
   return (
@@ -62,50 +55,7 @@ const Home = () => {
       </div>
 
       {/* 4. Dashboard Stats Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <DashboardStateCard
-          icon={<FaCoins />}
-          title="Total Earned"
-          value="132.00"
-          valuePrefix="$"
-          count={true}
-        />
-        <DashboardStateCard
-          icon={<FaClock />}
-          title="Time Spent"
-          value="5h 40m"
-          valuePrefix=""
-          count={false}
-        />
-        <DashboardStateCard
-          icon={<FaChartLine />}
-          title="CTR"
-          value="3.2%"
-          valuePrefix="$"
-          count={false}
-        />
-        <DashboardStateCard
-          icon={<FaAd />}
-          title="Ads Clicked"
-          value="145"
-          valuePrefix=""
-          count={true}
-        />
-        <DashboardStateCard
-          icon={<FaUsers />}
-          title="Referrals"
-          value="12"
-          valuePrefix=""
-          count={true}
-        />
-        <DashboardStateCard
-          icon={<FaMedal />}
-          title="Rank"
-          value="#24"
-          valuePrefix="$"
-          count={false}
-        />
-      </div>
+      <StateSection></StateSection>
 
       {/* 5. Leaderboard Table */}
       <div className="overflow-x-auto max-h-64 scroll-smooth bg-base-100 shadow-sm">

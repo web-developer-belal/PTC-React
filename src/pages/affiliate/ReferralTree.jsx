@@ -102,7 +102,7 @@ const ReferralNode = ({ referral, level, layout }) => {
                   key={child.id}
                   className="flex flex-col items-center relative z-10"
                 >
-                  <div className="h-2 mt-2 w-px border-neutral border-dashed border-l-2 mb-1"></div>
+                  <div className="h-2 mt-2 w-px border-primary border-dashed border-l-2 mb-1"></div>
                   <ReferralNode
                     referral={child}
                     level={level + 1}
