@@ -10,7 +10,6 @@ This is a modern PTC (Paid-to-Click) earning website where users can earn by eng
 - 🎨 Multiple DaisyUI themes (light/dark/custom)
 - ✨ Smooth animations using Framer Motion
 - 📱 Fully responsive and mobile-friendly layout
-- 🔐 Authentication-ready structure
 - 🧩 Modular and component-based architecture
 
 📦 **Key Dependencies**
@@ -23,5 +22,7 @@ This is a modern PTC (Paid-to-Click) earning website where users can earn by eng
 🛠️ **Getting Started – Run Locally**
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/ptc-earning-platform.git
+   git clone git@github.com:web-developer-belal/PTC-React.git
    cd ptc-earning-platform
+   npm i
+   npm run dev
